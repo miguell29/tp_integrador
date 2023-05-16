@@ -64,3 +64,28 @@
     border-right: 2px white solid;
 }
 
+/*************************FOOTER***********************/
+
+.footer{
+    background-color: cadetblue;
+    padding: 2rem 0;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+ul li{
+    list-style: none;
+    display: inline;
+}
+.footer a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.footer a:hover{
+    font-size: large;
+    font-weight: bold;
+}
+
