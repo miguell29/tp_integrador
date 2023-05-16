@@ -34,8 +34,9 @@
 
 }
 .orador{
-    width: 25%;
+    width: 30%;
     border: solid gray 0.1rem;
+    margin-bottom: 2rem;
 }
 .orador img{
     width: 100%;
@@ -51,6 +52,17 @@
 .orador p{
     padding: 1rem;
     font-size: 1rem;
+}
+
+@media all and (max-width:900px){
+    .orador{
+        width: 40%;
+    }
+}
+@media all and (max-width:600px){
+    .orador{
+        width: 80%;
+    }
 }
 
 /**************************LUGAR Y FECHA***********************/
